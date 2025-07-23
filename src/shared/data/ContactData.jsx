@@ -2,7 +2,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 
-export const contactData = [
+export const ContactData = [
   {
     id: 1,
     icon: <FaLocationDot />,

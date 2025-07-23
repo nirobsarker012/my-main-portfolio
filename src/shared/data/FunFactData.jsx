@@ -1,4 +1,4 @@
-export const funFactData = [
+export const FunFactData = [
   {
     id: 1,
     number: 2,

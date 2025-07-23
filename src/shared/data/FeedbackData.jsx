@@ -1,4 +1,4 @@
-export const feedbackData = [
+export const FeedbackData = [
   {
     id: 1,
     img: "https://i.ibb.co/3pjbxrL/mohi-uddin.jpg",

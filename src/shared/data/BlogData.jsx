@@ -3,7 +3,7 @@ const blog1 =
 import blog2 from "../../assets/images/blogs_img/blog2.jpg";
 import blog3 from "../../assets/images/blogs_img/blog3.jpg";
 import blog4 from "../../assets/images/blogs_img/blog4.jpg";
-export const blogData = [
+export const BlogData = [
   {
     id: 1,
     img: blog1,
