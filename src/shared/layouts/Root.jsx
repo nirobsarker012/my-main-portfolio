@@ -7,7 +7,7 @@ const Root = () => {
   return (
     <>
       {/* <Navbar /> */}
-      <div className="">
+      <div className="w-full overflow-x-hidden">
         <Outlet />
       </div>
       <Footer />

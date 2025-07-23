@@ -13,8 +13,9 @@ const Home = () => {
   return (
     <div className="w-full bg-black pop">
       {/* Dark Noise Colored Background */}
+
       <div
-        className="absolute inset-0"
+        className="relative"
         style={{
           background: "#000000",
           backgroundImage: `
@@ -25,8 +26,11 @@ const Home = () => {
           backgroundSize: "20px 20px, 30px 30px, 25px 25px",
           backgroundPosition: "0 0, 10px 10px, 15px 5px",
         }}
-      />
-      <div className="relative">
+      >
+        {/* <div
+          className="absolute inset-0"
+          
+        /> */}
         <Navbar />
         <Banner />
         <About />

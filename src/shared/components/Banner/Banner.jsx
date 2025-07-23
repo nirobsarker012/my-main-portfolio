@@ -3,6 +3,7 @@ import portfolio_illustration from "../../../assets/images/portfolio-illustratio
 import { BsDownload, BsEye } from "react-icons/bs";
 import TypeWriter from "../TypeWriter";
 import SplitText from "../SplitText";
+import CodeCard from "../CordCard";
 const Banner = () => {
   const handleScroll = () => {
     const element = document.getElementById("projects");
@@ -22,7 +23,7 @@ const Banner = () => {
     console.log("All letters have animated!");
   };
   return (
-    <div className="mx-auto flex container flex-wrap items-center justify-center gap-10 mt-32 lg:mt-40 xl:justify-between">
+    <div className="mx-auto flex container flex-wrap items-center justify-center pt-32 lg:pt-40 gap-10 xl:justify-between">
       <div className="order-last mb-14 lg:order-first lg:mb-0">
         <SplitText
           text="Nirob Sarker"
@@ -65,7 +66,7 @@ const Banner = () => {
       </div>
 
       <div className="relative order-first -mt-12 w-[220px] sm:w-[400px] md:bottom-0 md:-mt-0 md:mb-10 lg:order-last xl:mb-0 xl:w-[450px]">
-        <img
+        {/* <img
           className="animate-spin-custom"
           src={portfolio_illustration}
           alt="portfolio_illustration"
@@ -74,7 +75,8 @@ const Banner = () => {
           <marquee width="50%" direction="down" scrollAmount="1" height="20px">
             <div className="text-center">React.js Node.js Javascript CSS</div>
           </marquee>
-        </div>
+        </div> */}
+        <CodeCard />
       </div>
     </div>
   );
