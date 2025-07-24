@@ -56,7 +56,7 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="text-white flex justify-between items-center py-4">
+      <div className="text-white flex justify-between items-center py-4 container">
         <Link to="/">
           <h1 className="font-mono text-3xl font-semibold">
             NIROB<span className="animate-ping text-[#55E6C1]">.</span>
