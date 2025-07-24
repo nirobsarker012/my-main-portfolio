@@ -19,3 +19,11 @@
 html {
   scroll-behavior: smooth;
 }
+
+.react-activity-calendar__count {
+  color: white !important;
+}
+
+.react-activity-calendar__legend-colors span {
+  color: white !important;
+}
