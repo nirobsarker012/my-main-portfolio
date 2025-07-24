@@ -7,7 +7,7 @@ import DecryptedText from "../DecryptedText";
 const About = () => {
   return (
     <>
-      <div className="container py-14 ">
+      <div id="about" className="container py-14 ">
         <div className="mx-auto my-10 w-[120px] border-b-[3px] border-[#55E6C1] text-2xl font-semibold md:w-[150px] md:text-3xl">
           {/* <h1 className="text-center text-gray-300">About Me</h1> */}
           <DecryptedText

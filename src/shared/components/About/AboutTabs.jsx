@@ -27,7 +27,9 @@ const AboutTabs = () => {
         </button>
         <button
           className={`${
-            toggle === 2 ? "bg-[#55E6C1] text-black" : "text-white"
+            toggle === 2
+              ? "bg-[#55E6C1] text-black"
+              : "text-white border border-gray-300"
           } mb-2 rounded-full px-14 py-2 text-[18px] font-medium sm:mb-5 md:px-20 cursor-pointer`}
           onClick={() => handleToggle(2)}
         >

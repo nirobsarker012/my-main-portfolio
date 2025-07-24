@@ -15,3 +15,7 @@
   max-width: 1350px;
   margin-inline: auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}

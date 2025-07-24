@@ -10,7 +10,7 @@ import SkillCategory from "./SkillCategory";
 
 const Skills = () => {
   return (
-    <div className="container">
+    <div id="skill" className="container">
       <div>
         <div className="mx-auto my-10 w-[66px] border-b-[3px] border-[#55E6C1]   text-2xl font-semibold md:w-[80px] md:text-3xl">
           <h1 className="text-center text-gray-300">Skills</h1>
