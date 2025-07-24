@@ -45,12 +45,12 @@ const Banner = () => {
           <div
             id="view_projects"
             onClick={handleScroll}
-            className="mt-5 flex w-40 cursor-pointer items-center justify-center gap-2 rounded-sm bg-[#0fb9b1] py-2 text-center font-semibold text-black transition-all duration-300 hover:bg-[#252425] hover:text-[#0fb9b1]"
+            className="mt-5 flex w-40 cursor-pointer items-center justify-center gap-2 rounded-sm bg-[#55E6C1] py-2 text-center font-semibold text-black transition-all duration-300 hover:bg-[#252425] hover:text-[#55E6C1]"
           >
             View Projects
             <BsEye className="text-lg" />
           </div>
-          <div className="mt-5 flex w-40 cursor-pointer items-center justify-center gap-2 rounded-sm bg-[#0fb9b1] py-2 text-center font-semibold text-black transition-all duration-300 hover:bg-[#252425] hover:text-[#0fb9b1]">
+          <div className="mt-5 flex w-40 cursor-pointer items-center justify-center gap-2 rounded-sm bg-[#55E6C1] py-2 text-center font-semibold text-black transition-all duration-300 hover:bg-[#252425] hover:text-[#55E6C1]">
             <a
               href=""
               download

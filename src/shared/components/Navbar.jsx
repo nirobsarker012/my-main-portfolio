@@ -58,7 +58,7 @@ const Navbar = () => {
       <div className="text-white flex justify-between items-center py-4">
         <Link to="/">
           <h1 className="font-mono text-3xl font-semibold">
-            NIROB<span className="animate-ping text-[#0fb9b1]">.</span>
+            NIROB<span className="animate-ping text-[#55E6C1]">.</span>
           </h1>
         </Link>
 
@@ -66,8 +66,8 @@ const Navbar = () => {
           {menuItems.map((item) => (
             <li
               key={item.id}
-              className={`cursor-pointer hover:text-[#0fb9b1] ${
-                activeSection === item.id ? "text-[#0fb9b1]" : ""
+              className={`cursor-pointer hover:text-[#55E6C1] ${
+                activeSection === item.id ? "text-[#55E6C1]" : ""
               }`}
               onClick={() => handleMenuItemClick(item.id)}
             >
@@ -81,7 +81,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/nirob-sarker-a9880b288/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#0fb9b1]"
+            className="text-gray-300 hover:text-[#55E6C1]"
           >
             <FaLinkedin />
           </a>
@@ -89,7 +89,7 @@ const Navbar = () => {
             href="https://github.com/nirobsarker012"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#0fb9b1]"
+            className="text-gray-300 hover:text-[#55E6C1]"
           >
             <FaGithub />
           </a>
@@ -98,12 +98,12 @@ const Navbar = () => {
         <div className="md:hidden">
           {isOpen ? (
             <FiX
-              className="text-3xl text-[#0fb9b1] cursor-pointer"
+              className="text-3xl text-[#55E6C1] cursor-pointer"
               onClick={() => setIsOpen(false)}
             />
           ) : (
             <FiMenu
-              className="text-3xl text-[#0fb9b1] cursor-pointer"
+              className="text-3xl text-[#55E6C1] cursor-pointer"
               onClick={() => setIsOpen(true)}
             />
           )}
@@ -125,7 +125,7 @@ const Navbar = () => {
       >
         <div className="flex justify-end p-4">
           <FiX
-            className="text-3xl text-[#0fb9b1] cursor-pointer"
+            className="text-3xl text-[#55E6C1] cursor-pointer"
             onClick={() => setIsOpen(false)}
           />
         </div>
@@ -134,8 +134,8 @@ const Navbar = () => {
             <li key={item.id}>
               <button
                 onClick={() => handleMenuItemClick(item.id)}
-                className={`hover:text-[#0fb9b1] ${
-                  activeSection === item.id ? "text-[#0fb9b1]" : ""
+                className={`hover:text-[#55E6C1] ${
+                  activeSection === item.id ? "text-[#55E6C1]" : ""
                 }`}
               >
                 {item.label}
@@ -148,7 +148,7 @@ const Navbar = () => {
             href="https://www.linkedin.com/in/nirob-sarker-a9880b288/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#0fb9b1]"
+            className="text-gray-300 hover:text-[#55E6C1]"
           >
             <FaLinkedin />
           </a>
@@ -156,7 +156,7 @@ const Navbar = () => {
             href="https://github.com/nirobsarker012"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#0fb9b1]"
+            className="text-gray-300 hover:text-[#55E6C1]"
           >
             <FaGithub />
           </a>

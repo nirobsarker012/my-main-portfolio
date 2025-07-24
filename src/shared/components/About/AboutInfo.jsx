@@ -3,11 +3,11 @@ const AboutInfo = () => {
     <div className="container">
       <h1 className="text-justify text-[18px] text-gray-200">
         Hello!, I'm
-        <span className="font-semibold text-[#0fb9b1]"> Nirob Sarker </span>a
+        <span className="font-semibold text-[#55E6C1]"> Nirob Sarker </span>a
         Jr. Front-End Developer based in Bangladesh. I have well knowledge of
         Fullstack development.
       </h1>
-      <p className="my-10 text-justify text-[16px] text-gray-300">
+      <div className="my-10 text-justify text-[16px] text-gray-300">
         <p>
           👋 Hey there! I'm a 23-year-old self-motivated programmer on a journey
           to become a versatile front-end web developer. My passion for
@@ -27,35 +27,35 @@ const AboutInfo = () => {
           projects I've been involved in. Still, I'm developing my skills daily
           and enjoying my life with programming.
         </p>
-      </p>
+      </div>
 
       <div className="mb-5 flex flex-wrap items-center justify-between gap-2">
         <div>
           <div className="flex gap-5 text-[18px]">
-            <span className="text-[#0fb9b1]">Name:</span>{" "}
+            <span className="text-[#55E6C1]">Name:</span>{" "}
             <span className="text-white">Nirob Sarker</span>
           </div>
           <div className="my-1 flex gap-5 text-[18px]">
-            <span className="text-[#0fb9b1]">Phone:</span>
+            <span className="text-[#55E6C1]">Phone:</span>
             <span className="text-white">+8801854433053</span>
           </div>
           <div className="flex gap-5 text-[18px]">
-            <span className="text-[#0fb9b1]">Nationality:</span>
+            <span className="text-[#55E6C1]">Nationality:</span>
             <span className="text-white">Bangladeshi </span>
           </div>
         </div>
         <div className="hidden h-24 border-l-4 border-[#4BFFA5] p-4 md:block ml-2"></div>
         <div>
           <div className="flex gap-5 text-[18px]">
-            <span className="text-[#0fb9b1]">Age:</span>{" "}
+            <span className="text-[#55E6C1]">Age:</span>{" "}
             <span className="text-white">23</span>
           </div>
           <div className="my-1 flex gap-5 text-[18px]">
-            <span className="text-[#0fb9b1]">Address:</span>{" "}
+            <span className="text-[#55E6C1]">Address:</span>{" "}
             <span className="text-white">Mirpur 2, Dhaka, Bangladesh</span>
           </div>
           <div className="flex gap-5 text-[18px]">
-            <span className="mb-5 text-[#0fb9b1] sm:mb-0">Language:</span>
+            <span className="mb-5 text-[#55E6C1] sm:mb-0">Language:</span>
             <span className="text-white">Bengali, English</span>
           </div>
         </div>
