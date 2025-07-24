@@ -1,7 +1,7 @@
 export const ProjectData = [
   {
     id: 1,
-    img: "/public/project_img/kobayashi-res.png",
+    img: "/project_img/kobayashi-res.png",
     project_name: "Restaurant Management",
     live: "https://ns-restaurant-management.netlify.app/",
     client: "https://github.com/nirobsarker012/restaurant-client",
@@ -12,7 +12,7 @@ export const ProjectData = [
   },
   {
     id: 2,
-    img: "/public/project_img/plant-care.png",
+    img: "/project_img/plant-care.png",
     project_name: "Plant Care - E-Commerce",
     live: "https://ns-plant-care.netlify.app/",
     client: "https://github.com/nirobsarker012/plant-care-client",
@@ -22,7 +22,7 @@ export const ProjectData = [
   },
   {
     id: 3,
-    img: "/public/project_img/gaming.png",
+    img: "/project_img/gaming.png",
     project_name: "App Store",
     live: "https://ns-app-store.netlify.app/",
     client: "https://github.com/nirobsarker012/app-store-client",
@@ -33,7 +33,7 @@ export const ProjectData = [
 
   {
     id: 4,
-    img: "/public/project_img/law-bd.png",
+    img: "/project_img/law-bd.png",
     project_name: "Law BD",
     live: "https://ns-lawyer-dev.netlify.app/",
     client: "https://github.com/nirobsarker012/law-bd",
@@ -42,7 +42,7 @@ export const ProjectData = [
   },
   {
     id: 5,
-    img: "/public/project_img/english-janala.png",
+    img: "/project_img/english-janala.png",
     project_name: "English Janala",
     live: "https://ns-english-janala.netlify.app/",
     client: "https://github.com/nirobsarker012/english-janala",
@@ -51,7 +51,7 @@ export const ProjectData = [
   },
   {
     id: 6,
-    img: "/public/project_img/head-phones.png",
+    img: "/project_img/head-phones.png",
     project_name: "Head Phones Store",
     live: "https://ns-headphones-dev.netlify.app/",
     client: "https://github.com/nirobsarker012/headPhones-dev",
@@ -61,7 +61,7 @@ export const ProjectData = [
 
   {
     id: 7,
-    img: "/public/project_img/tea-house.png",
+    img: "/project_img/tea-house.png",
     project_name: "Tea House",
     live: "https://te-house.netlify.app/",
     client: "https://github.com/nirobsarker012/tea-house",
@@ -71,7 +71,7 @@ export const ProjectData = [
 
   {
     id: 8,
-    img: "/public/project_img/echma.png",
+    img: "/project_img/echma.png",
     project_name: "Edemy",
     live: "https://ns-edemy-frontend.netlify.app/",
     client: "https://github.com/nirobsarker012/practice",
