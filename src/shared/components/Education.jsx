@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <div className="mx-auto container">
+    <div className="container px-3">
       <div className="mb-10 flex flex-wrap items-center  gap-5 ">
         <div>
           <h3 className="text-gray-300">Session: 2024-2025</h3>
@@ -14,7 +14,7 @@ const Education = () => {
         <div>
           <h3 className="text-gray-300">Session: 2019-2020</h3>
           <h1 className="my-1 text-[20px] font-semibold text-gray-300">
-            Diploma in Computer Engineering (CSE)
+            Diploma in Computer Technology (CST)
           </h1>
           <h2 className="font-extralight text-gray-300 ">
             - Pabna Polytechnic Institute

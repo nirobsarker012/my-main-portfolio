@@ -48,80 +48,80 @@ const Navbar = () => {
   };
 
   return (
-    <nav
-      id="home"
-      className={`fixed top-0 left-0 w-full z-50 transition duration-300 px-4 md:px-8 lg:px-20  ${
-        isScrolled
-          ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
-          : "bg-transparent"
-      }`}
-    >
-      <div className="text-white flex justify-between items-center py-4 container">
-        <Link to="/">
-          <h1 className="font-mono text-3xl font-semibold">
-            NIROB<span className="animate-ping text-[#55E6C1]">.</span>
-          </h1>
-        </Link>
+    <>
+      <nav
+        id="home"
+        className={`fixed top-0 left-0 w-full z-50 transition duration-300 px-4 md:px-8 lg:px-20  ${
+          isScrolled
+            ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
+            : "bg-transparent"
+        }`}
+      >
+        <div className="text-white flex justify-between items-center py-4 container">
+          <Link to="/">
+            <h1 className="font-mono text-3xl font-semibold">
+              NIROB<span className="animate-ping text-[#55E6C1]">.</span>
+            </h1>
+          </Link>
 
-        <ul className="hidden md:flex space-x-8 text-gray-300">
-          {menuItems.map((item) => (
-            <li
-              key={item.id}
-              className={`cursor-pointer hover:text-[#55E6C1] ${
-                activeSection === item.id ? "text-[#55E6C1]" : ""
-              }`}
-              onClick={() => handleMenuItemClick(item.id)}
+          <ul className="hidden md:flex space-x-8 text-gray-300">
+            {menuItems.map((item) => (
+              <li
+                key={item.id}
+                className={`ns-big-cursor cursor-pointer hover:text-[#55E6C1] ${
+                  activeSection === item.id ? "text-[#55E6C1]" : ""
+                }`}
+                onClick={() => handleMenuItemClick(item.id)}
+              >
+                {item.label}
+              </li>
+            ))}
+          </ul>
+
+          <div className="hidden md:flex space-x-4 text-[24px]">
+            <a
+              href="https://www.linkedin.com/in/nirob-sarker-a9880b288/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-[#55E6C1]"
             >
-              {item.label}
-            </li>
-          ))}
-        </ul>
+              <FaLinkedin />
+            </a>
+            <a
+              href="https://github.com/nirobsarker012"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-[#55E6C1]"
+            >
+              <FaGithub />
+            </a>
+          </div>
 
-        <div className="hidden md:flex space-x-4 text-[24px]">
-          <a
-            href="https://www.linkedin.com/in/nirob-sarker-a9880b288/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#55E6C1]"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://github.com/nirobsarker012"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-300 hover:text-[#55E6C1]"
-          >
-            <FaGithub />
-          </a>
+          <div className="md:hidden">
+            {isOpen ? (
+              <FiX
+                className="text-3xl text-[#55E6C1] cursor-pointer"
+                onClick={() => setIsOpen(false)}
+              />
+            ) : (
+              <FiMenu
+                className="text-3xl text-[#55E6C1] cursor-pointer"
+                onClick={() => setIsOpen(true)}
+              />
+            )}
+          </div>
         </div>
-
-        <div className="md:hidden">
-          {isOpen ? (
-            <FiX
-              className="text-3xl text-[#55E6C1] cursor-pointer"
-              onClick={() => setIsOpen(false)}
-            />
-          ) : (
-            <FiMenu
-              className="text-3xl text-[#55E6C1] cursor-pointer"
-              onClick={() => setIsOpen(true)}
-            />
-          )}
-        </div>
-      </div>
-
+      </nav>
       {/* Mobile Sidebar + Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm"
+          className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm md:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
-
       <div
         className={`fixed top-0 right-0 h-full w-[250px] bg-[#101010] text-white z-50 shadow-lg transform transition-transform duration-300 ${
-          isOpen ? "translate-x-0" : "translate-x-full"
+          isOpen ? "translate-x-0 md:translate-x-full" : "translate-x-full"
         }`}
       >
         <div className="flex justify-end p-4">
@@ -163,7 +163,7 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </nav>
+    </>
   );
 };
 

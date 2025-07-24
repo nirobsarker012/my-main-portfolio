@@ -45,7 +45,7 @@ const Banner = () => {
           <div
             id="view_projects"
             onClick={handleScroll}
-            className="mt-5 flex w-40 cursor-pointer items-center justify-center gap-2 rounded-sm bg-[#55E6C1] py-2 text-center font-semibold text-black transition-all duration-300 hover:bg-[#252425] hover:text-[#55E6C1]"
+            className="ns-big-cursor mt-5 flex w-40 cursor-pointer items-center justify-center gap-2 rounded-sm bg-[#55E6C1] py-2 text-center font-semibold text-black transition-all duration-300 hover:bg-[#252425] hover:text-[#55E6C1]"
           >
             View Projects
             <BsEye className="text-lg" />
@@ -56,7 +56,7 @@ const Banner = () => {
               download
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2"
+              className="ns-big-cursor flex items-center gap-2"
             >
               Download CV
               <BsDownload className="text-lg" />
@@ -72,7 +72,7 @@ const Banner = () => {
           alt="portfolio_illustration"
         />
         <div className="absolute left-[32%] top-[50%] text-2xl text-white lg:hidden">
-          <marquee width="50%" direction="down" scrollAmount="1" height="20px">
+          <marquee width="50%" direction="down" height="20px">
             <div className="text-center">React.js Node.js Javascript CSS</div>
           </marquee>
         </div>

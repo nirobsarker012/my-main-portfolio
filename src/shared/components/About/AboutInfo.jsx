@@ -2,9 +2,9 @@ const AboutInfo = () => {
   return (
     <div className="container px-3.5">
       <h1 className="text-justify text-[18px] text-gray-200">
-        Hello!, I'm
-        <span className="font-semibold text-[#55E6C1]"> Nirob Sarker </span>a
-        Jr. Front-End Developer based in Bangladesh. I have well knowledge of
+        Hello!, I'm{" "}
+        <span className="font-semibold text-[#55E6C1]">Nirob Sarker</span> a
+        Jr.Front-End Developer based in Bangladesh. I have well knowledge of
         Fullstack development.
       </h1>
       <div className="my-10 text-justify text-[16px] text-gray-300">
@@ -44,7 +44,6 @@ const AboutInfo = () => {
             <span className="text-white">Bangladeshi </span>
           </div>
         </div>
-        <div className="hidden h-24 border-l-4 border-[#4BFFA5] p-4 md:block ml-2"></div>
         <div>
           <div className="flex gap-5 text-[18px]">
             <span className="text-[#55E6C1]">Age:</span>{" "}

@@ -1,7 +1,7 @@
 import React from "react";
 import AboutTabs from "./AboutTabs";
 import SocialIcon from "../SocialIcon";
-import my_img from "../../../assets/images/logo/WhatsApp Image 2025-07-24 at 15.21.20.jpeg";
+import my_img from "../../../assets/images/Auth_Img/nirob-img.jpeg";
 
 const About = () => {
   return (
