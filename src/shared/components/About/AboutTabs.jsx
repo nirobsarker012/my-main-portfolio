@@ -13,7 +13,7 @@ const AboutTabs = () => {
     toggle === id ? "block animate-fade-in-up" : "hidden";
 
   return (
-    <div className="my-10">
+    <div className="my-10 container">
       <div className="mb-10 flex flex-wrap items-center justify-center gap-2 border-b border-[#252425] sm:gap-5">
         <button
           className={`${

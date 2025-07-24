@@ -8,7 +8,7 @@ const SocialIcon = () => {
     "rounded-sm p-[6px] text-white transition-transform duration-300 hover:scale-110";
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-3 pl-3">
       <h1 className="text-[20px] font-medium text-gray-300">Follow On</h1>
       <Link
         to="https://www.facebook.com/nirob.dmc.10"

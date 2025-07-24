@@ -1,6 +1,6 @@
 const AboutInfo = () => {
   return (
-    <div className="container">
+    <div className="container px-3.5">
       <h1 className="text-justify text-[18px] text-gray-200">
         Hello!, I'm
         <span className="font-semibold text-[#55E6C1]"> Nirob Sarker </span>a

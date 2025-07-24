@@ -38,7 +38,7 @@ export const BlogData = [
   {
     id: 4,
     img: blog4,
-    title: "TOP 10 TOPICS OF FRONTEND DEVELOPMENT",
+    title: "TOP 10 TOPICS OF FRONTEND",
     date: " February 2, 2024",
     comments: 5,
     desc: "Some quick example text to build on the card title and make up the bulk of the card's content.",
