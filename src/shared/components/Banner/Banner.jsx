@@ -66,17 +66,19 @@ const Banner = () => {
       </div>
 
       <div className="relative order-first -mt-12 w-[220px] sm:w-[400px] md:bottom-0 md:-mt-0 md:mb-10 lg:order-last xl:mb-0 xl:w-[450px]">
-        {/* <img
-          className="animate-spin-custom"
+        <img
+          className="animate-spin-custom lg:hidden"
           src={portfolio_illustration}
           alt="portfolio_illustration"
         />
-        <div className="absolute left-[32%] top-[50%] text-2xl text-white">
+        <div className="absolute left-[32%] top-[50%] text-2xl text-white lg:hidden">
           <marquee width="50%" direction="down" scrollAmount="1" height="20px">
             <div className="text-center">React.js Node.js Javascript CSS</div>
           </marquee>
-        </div> */}
-        <CodeCard />
+        </div>
+        <div className="hidden lg:block">
+          <CodeCard />
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import { useRef } from "react";
 import { IoIosSend } from "react-icons/io";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
-import { ContactData } from "../../data/ContactData";
 import ContactInfo from "./ContactInfo";
 
 const Contact = () => {
@@ -31,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="container">
+    <div id="contact" className="container">
       <div className="border-red mx-auto my-10 w-[145px] border-b-[3px] border-[#55E6C1] text-2xl font-semibold md:w-[180px] md:text-3xl">
         <h1 className="text-center text-gray-300">Contact Me</h1>
       </div>

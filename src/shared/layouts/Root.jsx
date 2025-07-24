@@ -6,11 +6,9 @@ import Footer from "../components/Footer";
 const Root = () => {
   return (
     <>
-      {/* <Navbar /> */}
       <div className="w-full overflow-hidden">
         <Outlet />
       </div>
-      <Footer />
     </>
   );
 };

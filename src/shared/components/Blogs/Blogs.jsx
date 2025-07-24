@@ -4,12 +4,25 @@ import { LiaComments } from "react-icons/lia";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { BlogData } from "../../data/BlogData";
+import DecryptedText from "../DecryptedText";
 
 const Blogs = () => {
   return (
     <div id="blogs" className="container">
       <div className="mx-auto my-10 w-[72px] border-b-[3px] border-[#55E6C1] text-2xl font-semibold md:w-[90px] md:text-3xl">
-        <h1 className="text-center text-gray-300">Blogs</h1>
+        {/* <h1 className="text-center text-gray-300">Blogs</h1> */}
+        <DecryptedText
+          speed={100}
+          maxIterations={20}
+          characters="ABCD1234!?"
+          // className="revealed"
+          parentClassName="all-letters text-gray-300"
+          encryptedClassName="encrypted text-gray-300"
+          text="Blogs"
+          className="text-center text-gray-300"
+          animateOn="view"
+          revealDirection="center"
+        />
       </div>
 
       <div className="relative grid grid-cols-1 gap-10 pb-20 pt-5 md:grid-cols-2 md:gap-5 lg:grid-cols-3 xl:grid-cols-4">
