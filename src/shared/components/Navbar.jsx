@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
-
+import { motion } from "motion/react";
 const Navbar = () => {
   const [activeSection, setActiveSection] = useState("");
   const [isScrolled, setIsScrolled] = useState(false);
@@ -49,7 +49,10 @@ const Navbar = () => {
 
   return (
     <>
-      <nav
+      <motion.nav
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1, delay: 0.5 }}
         id="home"
         className={`fixed top-0 left-0 w-full z-50 transition duration-300 px-4 md:px-8 lg:px-20  ${
           isScrolled
@@ -111,7 +114,7 @@ const Navbar = () => {
             )}
           </div>
         </div>
-      </nav>
+      </motion.nav>
       {/* Mobile Sidebar + Overlay */}
       {isOpen && (
         <div

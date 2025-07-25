@@ -72,8 +72,15 @@ const Banner = () => {
           alt="portfolio_illustration"
         />
         <div className="absolute left-[32%] top-[50%] text-2xl text-white lg:hidden">
-          <marquee width="50%" direction="down" height="20px">
-            <div className="text-center">React.js Node.js Javascript CSS</div>
+          <marquee
+            scrollamount="2.5"
+            width="50%"
+            direction="down"
+            height="20px"
+          >
+            <div className="text-center text-[14px]">
+              React.js Node.js Javascript CSS
+            </div>
           </marquee>
         </div>
         <div className="hidden lg:block">

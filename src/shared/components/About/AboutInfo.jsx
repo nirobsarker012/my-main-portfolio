@@ -1,6 +1,36 @@
+import { motion, useAnimation } from "motion/react";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
 const AboutInfo = () => {
+  const controls = useAnimation();
+  const [ref, inView] = useInView({
+    triggerOnce: true, // I can use false then it show Inifinte the animation When I Scroll up and down.
+    threshold: 0.3,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      controls.start({
+        opacity: 1,
+        scale: 1,
+        transition: {
+          duration: 0.8,
+          delay: 0.1,
+          ease: [0, 0.71, 0.2, 1.01],
+        },
+      });
+    } else {
+      // Optional: reset when not in view
+      controls.start({ opacity: 0, scale: 0 });
+    }
+  }, [inView, controls]);
   return (
-    <div className="container px-3.5">
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, scale: 0.4 }}
+      animate={controls}
+      className="container px-3.5"
+    >
       <h1 className="text-justify text-[18px] text-gray-200">
         Hello!, I'm{" "}
         <span className="font-semibold text-[#55E6C1]">Nirob Sarker</span> a
@@ -59,7 +89,7 @@ const AboutInfo = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

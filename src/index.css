@@ -14,8 +14,8 @@
 } */
 
 .animate-spin-custom {
-  animation: spin 40s linear infinite;
-  -webkit-animation: spin 40s linear infinite;
+  animation: spin 20s linear infinite;
+  /* -webkit-animation: spin 20s linear infinite; */
 }
 
 .container {

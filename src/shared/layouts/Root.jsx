@@ -1,7 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Navbar from "../components/Navbar";
 import { Outlet } from "react-router-dom";
-import Footer from "../components/Footer";
 
 const Root = () => {
   // const cursor = useRef();
@@ -59,7 +57,7 @@ const Root = () => {
       <button
         onClick={handleScrollToTop}
         ref={scrollToTopRef}
-        className="bg-gray-50 w-12 aspect-square rounded-full rotate-180 flex justify-center items-center fixed bottom-5 right-2 z-[99999] duration-300 translate-y-full scale-0"
+        className="bg-gray-50 w-12 aspect-square rounded-full rotate-180 flex justify-center items-center fixed bottom-5 right-2 z-[99999] duration-300 translate-y-full scale-0 cursor-pointer"
       >
         <img
           src="/up-arrow.png"
