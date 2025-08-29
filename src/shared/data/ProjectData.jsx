@@ -61,6 +61,16 @@ export const ProjectData = [
 
   {
     id: 7,
+    img: "/project_img/software_chamber.png",
+    project_name: "Software Chamber",
+    live: "https://ns-software-chamber.vercel.app/",
+    client: "https://github.com/nirobsarker012/software-chamber",
+    technologies: "React JS, Tailwind CSS, Framer Motion",
+    category: "frontend",
+  },
+
+  {
+    id: 8,
     img: "/project_img/tea-house.png",
     project_name: "Tea House",
     live: "https://te-house.netlify.app/",
@@ -70,20 +80,11 @@ export const ProjectData = [
   },
 
   {
-    id: 8,
+    id: 9,
     img: "/project_img/echma.png",
     project_name: "Edemy",
     live: "https://ns-edemy-frontend.netlify.app/",
     client: "https://github.com/nirobsarker012/practice",
-    technologies: "HTML, CSS",
-    category: "frontend",
-  },
-  {
-    id: 9,
-    img: "/project_img/software_chamber.png",
-    project_name: "Software Chamber",
-    live: "https://ns-software-chamber.vercel.app/",
-    client: "https://github.com/nirobsarker012/software-chamber",
     technologies: "HTML, CSS",
     category: "frontend",
   },
