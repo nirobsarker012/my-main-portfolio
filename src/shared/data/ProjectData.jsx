@@ -78,4 +78,13 @@ export const ProjectData = [
     technologies: "HTML, CSS",
     category: "frontend",
   },
+  {
+    id: 9,
+    img: "/project_img/software_chamber.png",
+    project_name: "Software Chamber",
+    live: "https://ns-software-chamber.vercel.app/",
+    client: "https://github.com/nirobsarker012/software-chamber",
+    technologies: "HTML, CSS",
+    category: "frontend",
+  },
 ];
