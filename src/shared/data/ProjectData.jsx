@@ -46,7 +46,7 @@ export const ProjectData = [
     project_name: "English Janala",
     live: "https://ns-english-janala.netlify.app/",
     client: "https://github.com/nirobsarker012/english-janala",
-    technologies: "Next.js, Typescript, TailwindCSS",
+    technologies: "JavaScript, TailwindCSS",
     category: "frontend",
   },
   {
