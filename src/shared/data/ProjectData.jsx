@@ -61,7 +61,7 @@ export const ProjectData = [
 
   {
     id: 7,
-    img: "/public/project_img/ena-ema.png",
+    img: "/project_img/ena-ema.png",
     project_name: "Ena Ema",
     live: "https://ns-ena-ema.vercel.app/",
     client: "https://github.com/nirobsarker012/ena-ema",
