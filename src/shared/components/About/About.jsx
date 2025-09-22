@@ -1,7 +1,7 @@
 import React from "react";
 import AboutTabs from "./AboutTabs";
 import SocialIcon from "../SocialIcon";
-import my_img from "../../../assets/images/Auth_Img/nirob-img.jpeg";
+import my_img from "../../../assets/images/Auth_Img/Nirob_Sarker.jpeg";
 import { AnimatePresence, easeInOut, motion } from "motion/react";
 
 export const fedup = (delay) => {

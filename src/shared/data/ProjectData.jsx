@@ -61,6 +61,16 @@ export const ProjectData = [
 
   {
     id: 7,
+    img: "/public/project_img/ena-ema.png",
+    project_name: "Ena Ema",
+    live: "https://ns-ena-ema.vercel.app/",
+    client: "https://github.com/nirobsarker012/ena-ema",
+    technologies: "Next JS, Tailwind CSS, Framer Motion",
+    category: "frontend",
+  },
+
+  {
+    id: 8,
     img: "/project_img/software_chamber.png",
     project_name: "Software Chamber",
     live: "https://ns-software-chamber.vercel.app/",
@@ -70,7 +80,7 @@ export const ProjectData = [
   },
 
   {
-    id: 8,
+    id: 9,
     img: "/project_img/tea-house.png",
     project_name: "Tea House",
     live: "https://te-house.netlify.app/",
@@ -80,7 +90,7 @@ export const ProjectData = [
   },
 
   {
-    id: 9,
+    id: 10,
     img: "/project_img/echma.png",
     project_name: "Edemy",
     live: "https://ns-edemy-frontend.netlify.app/",
